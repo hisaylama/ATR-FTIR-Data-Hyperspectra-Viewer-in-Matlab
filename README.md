@@ -1,1 +1,1 @@
-# ATR-FTIR-Data-Analysis-in-MATLAB
+# ATR-FTIR-Data Hyperspectral Viewer
