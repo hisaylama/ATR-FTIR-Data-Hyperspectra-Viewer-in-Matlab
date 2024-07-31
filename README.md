@@ -1,3 +1,3 @@
 # ATR-FTIR-Data Hyperspectral Viewer
 
-Write the Hypersp[ectral Viewer in the Matlab command window.
+To run the Matlab viewer, write the Hypersp[ectral Viewer in the Matlab command window.
