@@ -6,5 +6,6 @@ This will open the Matlab graphical user interface as shown below. This interfac
 
 Note: The default values are for getting vertical lines over the 3D spectral profile. While running this program, keep all the `.m` files in the same folder.
 
-![image](https://github.com/user-attachments/assets/268c1a07-ffef-4454-858a-73108b2e2e6a)
+![image](https://github.com/user-attachments/assets/0fed4b5a-e4c6-40ae-8899-769252a948a1)
+
 
