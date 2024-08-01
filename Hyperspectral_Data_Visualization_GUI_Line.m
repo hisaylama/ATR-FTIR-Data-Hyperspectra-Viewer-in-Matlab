@@ -138,13 +138,16 @@ function Hyperspectral_Data_Visualization_GUI_Line()
     end
 
     function SaveFigCallback()
-
-        if isempty(reshapedMatrix)
-            uialert(fig, 'Please visualize the colormap first', 'Error');
-            return;
-        end
-        
-        plotSpectra(reshapedMatrix)
+        if exist('reshapedMatrix', 'var')
+            [file, path] = uiputfile('*.mat', 'Save reshaped matrix as');
+            if isequal(file, 0)
+                return;
+            end
+            save(fullfile(path, file), 'reshapedMatrix');
+        else
+            uialert(fig, 'No reshaped matrix to save', 'Error');
+         end
+          plotSpectra(reshapedMatrix)
     end
 
     % Nested callback function to plot horizontal line profile
