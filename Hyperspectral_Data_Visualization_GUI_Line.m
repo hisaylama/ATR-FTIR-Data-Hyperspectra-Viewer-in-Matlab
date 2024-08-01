@@ -16,7 +16,7 @@ function Hyperspectral_Data_Visualization_GUI_Line()
                             'ButtonPushedFcn', @(btnVisualize, event) visualizeCallback());
 
     % Input fields for target wavelengths
-    lblWavelength = uilabel(fig, 'Position', [20, 750, 150, 30], 'Text', '$\lambda$ = wavelength (in nm)', 'Interpreter','latex');
+    lblWavelength = uilabel(fig, 'Position', [20, 750, 150, 30], 'Text', 'Wavenumber (in cm$^{-1}$)', 'Interpreter','latex');
 
     lblTargetL = uilabel(fig, 'Position', [250,850, 100, 30], 'Text', 'low-$\lambda$:', 'Interpreter','latex');
     edtTargetL = uieditfield(fig, 'numeric', 'Position', [300, 850, 100, 30], 'Value', 1680);
