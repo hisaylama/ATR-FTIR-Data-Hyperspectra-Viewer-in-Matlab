@@ -65,6 +65,9 @@ function plot_horizontal_line_profiles(reshapedMatrix, x0, y0, x_end, incr_step,
 
     % Calculate the mean of LineData along the second dimension
     yline = mean(LineData, 2);
+   
+    H_data = [(1:length(yline))', yline];
+    writematrix(H_data, "horizontal_lines.txt");
 
     % Plot the line profile
     figure;
