@@ -74,6 +74,9 @@ function plot_vertical_line_profiles(reshapedMatrix, x0, y0, y_end, incr_step, w
     % Calculate the mean of LineData along the second dimension
     yline = mean(LineData, 2);
 
+    V_data = [(1:length(yline))', yline];
+    writematrix(V_data, "vertical_lines.txt");
+
     % Plot the line profile
     figure;
     plot(1:length(yline), yline, 'r-', 'LineWidth', 2);
