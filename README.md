@@ -1,5 +1,5 @@
 # ATR-FTIR-Data Hyperspectral Viewer
-This program is designed to visualize the spatial profile of compounds from ATR FTIR measurements conducted using Bruker ATR equipment. The data saved from Bruker's software is saved in `.mat` format. 
+This graphical user interface (GUI) is designed to visualize the spatial profile of compounds from ATR FTIR measurements conducted using Bruker ATR equipment. The data saved from Bruker's software is saved in `.mat` format. 
 
 To run the Matlab viewer, write Hyperspectral_Data_Visualization_GUI_Line in the Matlab command window. 
 This will open the Matlab graphical user interface as shown below. This interface is interactive and you can change the values as per your need. 
