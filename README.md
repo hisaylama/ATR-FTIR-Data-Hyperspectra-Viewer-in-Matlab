@@ -9,3 +9,4 @@ Note: The default values gives the vertical lines over the 3D spectral profile. 
 ![image](https://github.com/user-attachments/assets/0fed4b5a-e4c6-40ae-8899-769252a948a1)
 
 
+[``Spectroscopic and optical imaging of surfactant-mediated water diffusion and removal pathways in triglyceride films", Gunjan Tyagi, Luis Torquato, Zain Ahmad, Hisay Lama, Rebecca Fong, Sergei G. Kazarian, João T. Cabral](https://www.sciencedirect.com/science/article/pii/S0021979726011136)
